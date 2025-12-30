@@ -1,0 +1,124 @@
+.navbar-atas h1 {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+    font-size: 30px;
+    margin-right: auto;
+    font-family: 'Inter', sans-serif;
+
+}
+.navbar-atas {
+    background: linear-gradient(to right, rgb(12, 43, 168), rgb(162, 84, 7));
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;      
+    align-items: center;         
+    box-sizing: border-box;
+ 
+}
+.navbar-atas a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 1px
+}
+.navbar-atas a:hover {
+    padding: 10px;
+    color: rgb(181, 182, 182);
+}
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('../asset gambar/background.jpg'); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    min-height: 100vh;
+    margin: 0;     
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif; 
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+}
+.perkenalan {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+.perkenalan h1 {
+    margin: 0px;
+    font-weight: 700;
+    color: white;
+}
+.nama-keren {
+    background: linear-gradient(to right, #FFD700, #FF8C00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.sapaan {
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold;
+    margin-bottom: -10px; 
+    padding: 0;
+}
+.sains-data {
+    background: linear-gradient(to bottom, #821f6e, #db023c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.pesan {
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 20px;
+}
+.pesan h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+@media screen and (max-width: 600px) {
+    
+    .perkenalan h1 {
+        font-size: 32px;  
+        line-height: 1.2; 
+    }
+
+    .sapaan {
+        font-size: 18px; 
+        margin-bottom: 5px;
+    }
+
+
+    .perkenalan p {
+        font-size: 14px;
+        padding: 0 20px; 
+    }
+
+    .navbar-atas {
+        flex-direction: column; 
+        height: auto;         
+        padding: 15px 0;      
+    }
+
+    .navbar-atas h1 {
+        margin-right: 0;       
+        margin-bottom: 10px;  
+        font-size: 20px;
+    }
+
+    .navbar-atas a {
+        margin: 5px;         
+        font-size: 14px;
+    }
+    
+    body {
+        padding-top: 220px; 
+    }
+}
